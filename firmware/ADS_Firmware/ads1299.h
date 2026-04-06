@@ -75,6 +75,5 @@ ADS1299_Status ADS1299_Init(void);
 ADS1299_Status ADS1299_WriteReg(uint8_t address, uint8_t value);
 ADS1299_Status ADS1299_ReadReg(uint8_t address, uint8_t *value);
 ADS1299_Status ADS1299_ReadSample(int32_t *ch1);
-void TMR1_Init(void);
- 
+
 #endif /* ADS1299_H */
